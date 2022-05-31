@@ -1,6 +1,6 @@
 {
   "name": "@vnrag/cypress-parallel",
-  "version": "0.9.5",
+  "version": "0.9.10",
   "description": "Reduce up to 40% your Cypress suite execution time parallelizing the test run on the same machine.",
   "main": "cli.js",
   "repository": {

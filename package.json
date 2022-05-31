@@ -15,7 +15,10 @@
     "serve-and-test:parallel": "start-server-and-test start http://localhost:3000 cy:parallel",
     "serve-and-test:parallel:spec": "start-server-and-test start http://localhost:3000 cy:parallel:spec",
     "serve-and-test:parallel:junit": "start-server-and-test start http://localhost:3000 cy:parallel:junit",
-    "npm:publish": "cd lib && npm publish"
+    "npm:publish": "cd lib && npm publish",
+    "npm:publish:patch": "cd lib && npm version patch && npm publish",
+    "npm:publish:minor": "cd lib && npm version minor && npm publish",
+    "npm:publish:major": "cd lib && npm version major && npm publish"
   },
   "repository": {
     "type": "git",
